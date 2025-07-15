@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'catppuccin-macchiato',
+  theme: 'monokai',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -65,7 +65,7 @@ export const config: Config = {
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: e6283ee50622d1417571bd616c069d00.env, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'es', // More languages in https://openweathermap.org/current#multi

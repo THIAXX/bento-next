@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'monokai',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`

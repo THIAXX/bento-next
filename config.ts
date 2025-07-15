@@ -65,7 +65,7 @@ export const config: Config = {
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: import.meta.env.VITE_WEATHER_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'es', // More languages in https://openweathermap.org/current#multi
